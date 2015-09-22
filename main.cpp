@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <lockfreestack.h>
+#include "lockfreestack.h"
 
 int main(int argc, char** argv) try {
     lockfree::LockfreeStack<int> stack;
